@@ -1,0 +1,14 @@
+# Фиксированная версия
+#Django==4.2.7
+# Совместимость: любая 2.x, но не 3.x
+#requests>=2.28,<3.0
+# Последняя минорная версия 1.25.x
+#urllib3~=1.25
+# Установка из GitHub (конкретный коммит)
+#git+https://github.com/psf/requests.git@a1b2c3d
+# Установка из приватного репозитория
+#mypkg @ https://repo.example.com/packages/mypkg-1.0.0-py3-none-any.whl
+# Дополнительные зависимости (extra)
+#fastapi[all]==0.103.0
+# Условная зависимость (только для Windows)
+#pywin32; sys_platform == "win32"
